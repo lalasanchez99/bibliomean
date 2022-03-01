@@ -5,6 +5,9 @@ const bookSchema = new mongoose.Schema({
     name: String,
     author: String,
     description: String,
+    imageURL: String,
+    lenguage: String,
+    yearofpublication: Int32Array,
     Date: {
         type: Date,
         default: Date.now,
